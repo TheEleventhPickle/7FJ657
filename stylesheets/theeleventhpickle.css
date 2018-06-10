@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Bangers';
+    src: url('../assets/fonts/bangers.ttf');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../assets/fonts/oswald-regular.ttf');
+}
+
+.font-load {
+    opacity: 0;
+    height: 0;
+}
+
+.bangers {
+    font-family: 'Bangers', Arial, sans-serif;
+}
+
+.oswald {
+    font-family: 'Oswald', Arial, sans-serif;
+}
+
+canvas {
+    margin: 0 auto 20px;
+}
+
+.green {
+  color: #1DD82E;
+}
+
+.white {
+  color: #DADADA;
+}
+
+.orange {
+  color: #DA331F;
+}
+
+.red {
+  color: #FF1B00;
+}
+
+.yellow {
+  color: #F7EA18;
+}
+
+.purple {
+  color: #9F0EF7;
+}
+
+.blue {
+  color: #2729DC;
+}
