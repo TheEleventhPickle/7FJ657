@@ -43,7 +43,7 @@ game.state.add('play', {
 		/**
 		 * Upgrades.
 		 */ 
-		this.game.load.image('auto-memes',   buttonsDir + 'auto-memes.png');
+		this.game.load.image('guardian-angel',   buttonsDir + 'guardian-angel.png');
 		this.game.load.image('fbi', buttonsDir + 'fbi.png');
 		this.game.load.image('doge-wizard',  buttonsDir + 'doge-wizard.png');
 		this.game.load.image('doge-archer',  buttonsDir + 'doge-archer.png');
@@ -105,7 +105,7 @@ game.state.add('play', {
 
 		var upgradeButtonsData = [
 			{
-				icon: 'auto-memes', 
+				icon: 'guardian-angel', 
 				name: 'gaurdian angel', 
 				level: 0, 
 				cost: 5, 
