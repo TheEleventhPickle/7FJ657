@@ -44,7 +44,7 @@ game.state.add('play', {
 		 * Upgrades.
 		 */ 
 		this.game.load.image('auto-memes',   buttonsDir + 'auto-memes.png');
-		this.game.load.image('better-memes', buttonsDir + 'better-memes.png');
+		this.game.load.image('fbi', buttonsDir + 'fbi.png');
 		this.game.load.image('doge-wizard',  buttonsDir + 'doge-wizard.png');
 		this.game.load.image('doge-archer',  buttonsDir + 'doge-archer.png');
 		
@@ -115,7 +115,7 @@ game.state.add('play', {
 				}
 			},
 			{
-				icon: 'better-memes', 
+				icon: 'fbi', 
 				name: 'fbi', 
 				level: 0, 
 				cost: 15, 
