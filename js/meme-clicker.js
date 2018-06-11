@@ -221,7 +221,7 @@ game.state.add('play', {
 		this.coins.callAll('events.onInputDown.add', 'events.onInputDown', this.onClickCoin, this);
 
 		this.playerGoldText = this.add.text(30, 30, 'bees: ' + this.player.gold, {
-			font: '24px Oswald',
+			font: '24px "Roboto Mono"',
 			fill: '#fff',
 			strokeThickness: 4
 		});
@@ -233,12 +233,12 @@ game.state.add('play', {
 		this.levelUI = this.game.add.group();
 		this.levelUI.position.setTo(this.game.world.width - 200, 30);
 		this.levelText = this.levelUI.addChild(this.game.add.text(0, 0, 'Level: ' + this.level, {
-			font: '24px Oswald',
+			font: '24px "Roboto Mono"',
 			fill: '#fff',
 			strokeThickness: 4
 		}));
 		this.levelKillsText = this.levelUI.addChild(this.game.add.text(0, 30, 'Kills: ' + this.levelKills + '/' + this.levelKillsRequired, {
-			font: '24px Oswald',
+			font: '24px "Roboto Mono"',
 			fill: '#fff',
 			strokeThickness: 4
 		}));
