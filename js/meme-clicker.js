@@ -21,6 +21,7 @@ game.state.add('play', {
 		 * in var monsterData inside create().
 		 */
 		this.game.load.image('lucky-luciano',   enemiesDir + 'lucky-luciano.png');
+		this.game.load.image('sonic',   enemiesDir + 'sonic.png');
 
 		/**
 		 * Coin.
@@ -151,6 +152,7 @@ game.state.add('play', {
 		 */
 		var monsterData = [
 			{name: 'lucky luciano',      image: 'lucky-luciano',      maxHealth: 10}
+			{name: 'sonnnic',      image: 'sonic',      maxHealth: 5}
 		];
 		this.monsters = this.game.add.group();
 
