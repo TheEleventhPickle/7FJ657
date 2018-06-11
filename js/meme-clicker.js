@@ -316,7 +316,7 @@ game.state.add('play', {
 	},
 
 	onRevivedMonster: function (monster) {
-		monster.position.set(this.game.world.centerX + 100, this.game.world.centerY + 170);
+		monster.position.set(this.game.world.centerX + 150, this.game.world.centerY + 300);
 		// update the text display
 		this.monsterHealthText.addColor( '#1dbf1d', 0 );
 		this.monsterNameText.text = monster.details.name;
