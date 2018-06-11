@@ -25,7 +25,7 @@ game.state.add('play', {
 		/**
 		 * Coin.
 		 */
-		this.game.load.image('pepe-coin', coinsDir + 'pepe-coin.png');
+		this.game.load.image('bee', coinsDir + 'bee.jpeg');
 
 		/**
 		 * Upgrades.
@@ -215,7 +215,7 @@ game.state.add('play', {
 
 		// create a pool of gold coins
 		this.coins = this.add.group();
-		this.coins.createMultiple(50, 'pepe-coin', '', false);
+		this.coins.createMultiple(50, 'bee', '', false);
 		this.coins.setAll('inputEnabled', true);
 		this.coins.setAll('goldValue', 1);
 		this.coins.callAll('events.onInputDown.add', 'events.onInputDown', this.onClickCoin, this);
@@ -266,7 +266,7 @@ game.state.add('play', {
 
 		if (this.player.gold - getAdjustedCost() >= 0) {
 			this.player.gold -= getAdjustedCost();
-			this.playerGoldText.text = 'Memes: ' + this.player.gold;
+			this.playerGoldText.text = 'bees: ' + this.player.gold;
 			button.details.level++;
 			button.text.text = button.details.name + ': ' + button.details.level;
 			button.costText.text = 'Cost: ' + getAdjustedCost();
@@ -281,7 +281,7 @@ game.state.add('play', {
 		// give the player gold
 		this.player.gold += coin.goldValue;
 		// update UI
-		this.playerGoldText.text = 'Memes: ' + this.player.gold;
+		this.playerGoldText.text = 'bees: ' + this.player.gold;
 		// remove the coin
 		coin.kill();
 	},
