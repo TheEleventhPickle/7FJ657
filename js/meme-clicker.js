@@ -25,7 +25,7 @@ game.state.add('play', {
 		/**
 		 * Coin.
 		 */
-		this.game.load.image('bee', coinsDir + 'bee.jpeg');
+		this.game.load.image('bee', coinsDir + 'bee.png');
 
 		/**
 		 * Upgrades.
@@ -220,7 +220,7 @@ game.state.add('play', {
 		this.coins.setAll('goldValue', 1);
 		this.coins.callAll('events.onInputDown.add', 'events.onInputDown', this.onClickCoin, this);
 
-		this.playerGoldText = this.add.text(30, 30, 'Memes: ' + this.player.gold, {
+		this.playerGoldText = this.add.text(30, 30, 'bees: ' + this.player.gold, {
 			font: '24px Oswald',
 			fill: '#fff',
 			strokeThickness: 4
