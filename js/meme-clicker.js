@@ -12,7 +12,7 @@ game.state.add('play', {
 		/**
 		 * Background.
 		 */
-		this.game.load.image('wc', backgroundsDir + 'wc.png');
+		this.game.load.image('wc', backgroundsDir + 'b8b.jpg');
 
 		/**
 		 * Monsters.
@@ -45,7 +45,6 @@ game.state.add('play', {
 		 */ 
 		this.game.load.image('auto-memes',   buttonsDir + 'auto-memes.png');
 		this.game.load.image('better-memes', buttonsDir + 'better-memes.png');
-		this.game.load.image('dogebutton',   buttonsDir + 'doge.png');
 		this.game.load.image('doge-wizard',  buttonsDir + 'doge-wizard.png');
 		this.game.load.image('doge-archer',  buttonsDir + 'doge-archer.png');
 		
@@ -107,32 +106,22 @@ game.state.add('play', {
 		var upgradeButtonsData = [
 			{
 				icon: 'auto-memes', 
-				name: 'Hax', 
+				name: 'gaurdian angel', 
 				level: 0, 
 				cost: 5, 
-				desc: '+1 Damage per Click', 
+				desc: '+1 damage per click', 
 				purchaseHandler: function (button, player) {
 					player.clickDmg += 1;
 				}
 			},
 			{
 				icon: 'better-memes', 
-				name: 'Auto Hax', 
+				name: 'fbi', 
 				level: 0, 
 				cost: 15, 
-				desc: '+1 DPS', 
+				desc: '+1 damage per second', 
 				purchaseHandler: function (button, player) {
 					player.dps += 1;
-				}
-			},
-			{
-				icon: 'dogebutton', 
-				name: 'Attack Dogger', 
-				level: 0, 
-				cost: 150, 
-				desc: '+1 Critical Strike Chance', 
-				purchaseHandler: function (button, player) {
-					player.clickDmg += 10;
 				}
 			},
 		    {
