@@ -21,19 +21,6 @@ game.state.add('play', {
 		 * in var monsterData inside create().
 		 */
 		this.game.load.image('john-cena',   enemiesDir + 'john-cena.png');
-		this.game.load.image('dat-boi',     enemiesDir + 'dat-boi.png');
-		this.game.load.image('lenny-face',  enemiesDir + 'lenny-face.png');
-		this.game.load.image('spongegar',   enemiesDir + 'spongegar.png');
-		this.game.load.image('dang-daniel', enemiesDir + 'dang-daniel.png');
-		this.game.load.image('nyan-cat',    enemiesDir + 'nyan-cat.png');
-		this.game.load.image('doge',        enemiesDir + 'doge.png');
-		this.game.load.image('trollface',   enemiesDir + 'trollface.png');
-		this.game.load.image('yuno',        enemiesDir + 'yuno.png');
-		this.game.load.image('grumpy-cat',  enemiesDir + 'grumpy-cat.png'),
-		this.game.load.image('pepe',        enemiesDir + 'pepe.png');
-		this.game.load.image('patrick',     enemiesDir + 'patrick.png');
-		this.game.load.image('spoderman',   enemiesDir + 'spoderman.png');
-
 
 		/**
 		 * Coin.
@@ -58,7 +45,7 @@ game.state.add('play', {
 		this.game.cache.addBitmapData('upgradePanel', bmd);
 
 		var buttonImage = this.game.add.bitmapData(225, 75);
-		buttonImage.ctx.fillStyle = '#9BF780';
+		buttonImage.ctx.fillStyle = '#ffffff';
 		buttonImage.ctx.strokeStyle = '#00000';
 		buttonImage.ctx.lineWidth = 2;
 		buttonImage.ctx.fillRect(0, 0, 225, 75);
@@ -163,19 +150,7 @@ game.state.add('play', {
 		 * Monsters.
 		 */
 		var monsterData = [
-			{name: 'John Cena',      image: 'john-cena',      maxHealth: 5},
-			{name: 'Dat Boi',        image: 'dat-boi',        maxHealth: 20},
-			{name: 'Lenny',          image: 'lenny-face',     maxHealth: 2},
-			{name: 'Spongegar',      image: 'spongegar',      maxHealth: 5},
-			{name: 'Dang Daniel',    image: 'dang-daniel',    maxHealth: 5},
-			{name: 'Nyan Cat',       image: 'nyan-cat',       maxHealth: 15},
-			{name: 'Doggo',          image: 'doge',           maxHealth: 10},
-			{name: 'Troll Face',     image: 'trollface',      maxHealth: 5},
-			{name: 'Y U NO',         image: 'yuno',           maxHealth: 20},
-			{name: 'Grumpy Cat',     image: 'grumpy-cat',     maxHealth: 5},
-			{name: 'Pepe',           image: 'pepe',           maxHealth: 40},
-			{name: 'Patrick',        image: 'patrick',        maxHealth: 15},
-			{name: 'Spoderman',     image: 'spoderman',       maxHealth: 10}
+			{name: 'John Cena',      image: 'john-cena',      maxHealth: 5}
 		];
 		this.monsters = this.game.add.group();
 
