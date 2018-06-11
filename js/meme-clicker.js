@@ -151,8 +151,8 @@ game.state.add('play', {
 		 * Monsters.
 		 */
 		var monsterData = [
-			{name: 'lucky luciano',      image: 'lucky-luciano',      maxHealth: 10},
-			{name: 'sonnnic',      image: 'sonic',      maxHealth: 5}
+			{name: 'lucky luciano',      image: 'lucky-luciano',      maxHealth: 10}
+			{name: 'sonnnic',      image: 'sonic',      maxHealth: 5},
 		];
 		this.monsters = this.game.add.group();
 
