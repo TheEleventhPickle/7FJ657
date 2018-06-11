@@ -161,7 +161,7 @@ game.state.add('play', {
 			// use the built in health component
 			monster.health = monster.maxHealth = data.maxHealth;
 			// center anchor
-			monster.anchor.setTo(0.25, 0.75);
+			monster.anchor.setTo(0.5, 1);
 			// reference to the database
 			monster.details = data;
 			//enable input so we can click it!
@@ -175,7 +175,7 @@ game.state.add('play', {
 
 		// display the monster front and center
 		this.currentMonster = this.monsters.getRandom();
-		this.currentMonster.position.set(this.game.world.centerX + 100, this.game.world.centerY + 300);
+		this.currentMonster.position.set(this.game.world.centerX + 50, this.game.world.centerY + 300);
 
 		this.monsterInfoUI = this.game.add.group();
 		this.monsterInfoUI.position.setTo(this.currentMonster.x - 220, 30);
