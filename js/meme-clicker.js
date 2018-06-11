@@ -118,7 +118,7 @@ game.state.add('play', {
 				name: 'wizard', 
 				level: 0, 
 				cost: 300, 
-				desc: 'MEGA UPGRADE YOUR YPS', 
+				desc: '   MEGA UPGRADE YOUR YPS', 
 				purchaseHandler: function (button, player) {
 					player.dps += 20;
 				}
@@ -127,7 +127,7 @@ game.state.add('play', {
 				icon: 'doge-archer', 
 				name: 'Doggo Archer', 
 				level: 0, 
-				cost: 450, 
+				cost: 400, 
 				desc: 'Supercharge your DPC', 
 				purchaseHandler: function (button, player) {
 					player.clickDmg += 20;
