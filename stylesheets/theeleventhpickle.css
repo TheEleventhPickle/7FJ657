@@ -3,11 +3,6 @@
     src: url('../assets/fonts/robotomono.ttf');
 }
 
-@font-face {
-    font-family: 'Roboto Mono';
-    src: url('../assets/fonts/robotomono.ttf');
-}
-
 .font-load {
     opacity: 0;
     height: 0;
