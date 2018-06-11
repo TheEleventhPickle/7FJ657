@@ -161,7 +161,7 @@ game.state.add('play', {
 			// use the built in health component
 			monster.health = monster.maxHealth = data.maxHealth;
 			// center anchor
-			monster.anchor.setTo(0.5, 0.25);
+			monster.anchor.setTo(0.25, 0.75);
 			// reference to the database
 			monster.details = data;
 			//enable input so we can click it!
