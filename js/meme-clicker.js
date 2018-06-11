@@ -204,7 +204,7 @@ game.state.add('play', {
 				.to({
 					alpha: 0,
 					y: 100,
-					x: this.game.rnd.integerInRange(100, 100)
+					x: this.game.rnd.integerInRange(100, 700)
 				}, 1000, Phaser.Easing.Cubic.Out);
 
 			dmgText.tween.onComplete.add(function (text, tween) {
