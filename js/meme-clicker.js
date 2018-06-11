@@ -180,12 +180,12 @@ game.state.add('play', {
 		this.monsterInfoUI = this.game.add.group();
 		this.monsterInfoUI.position.setTo(this.currentMonster.x - 120, 30);
 		this.monsterNameText = this.monsterInfoUI.addChild(this.game.add.text(0, 0, this.currentMonster.details.name, {
-			font: '64px Bangers',
+			font: '64px "Roboto Mono"',
 			fill: '#fff',
 			strokeThickness: 4
 		}));
 		this.monsterHealthText = this.monsterInfoUI.addChild(this.game.add.text(0, 75, this.currentMonster.health + ' HP', {
-			font: '32px Bangers',
+			font: '32px "Roboto Mono"',
 			fill: '#1dbf1d',
 			strokeThickness: 4
 		}));
@@ -193,8 +193,8 @@ game.state.add('play', {
 		this.dmgTextPool = this.add.group();
 		var dmgText;
 		for (var d = 0; d < 50; d++) {
-			dmgText = this.add.text(0, 0, '1', {
-				font: '64px Bangers',
+			dmgText = this.add.text(30, 0, '1', {
+				font: '64px "Roboto Mono"',
 				fill: '#fff',
 				strokeThickness: 4
 			});
