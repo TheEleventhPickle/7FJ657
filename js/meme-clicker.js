@@ -92,7 +92,7 @@ game.state.add('play', {
 			.forEach(function (image) {
 				var bg = state.game.add.tileSprite(0, 0, state.game.world.width,
 					state.game.world.height, image, '', state.background);
-				bg.tileScale.setTo(1, 1);
+				bg.tileScale.setTo(2, 2);
 			});
 
 
