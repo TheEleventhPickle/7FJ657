@@ -137,9 +137,9 @@ game.state.add('play', {
 		upgradeButtonsData.forEach(function (buttonData, index) {
 			button = state.game.add.button(0, (77 * index), state.game.cache.getBitmapData('button'));
 			button.icon = button.addChild(state.game.add.image(6, 6, buttonData.icon));
-			button.text = button.addChild(state.game.add.text(48, 6, buttonData.name + ': ' + buttonData.level, {font: '16px "Roboto Mono"'}));
+			button.text = button.addChild(state.game.add.text(48, 6, buttonData.name + ': ' + buttonData.level, {font: '14px "Roboto Mono"'}));
 			button.details = buttonData;
-			button.costText = button.addChild(state.game.add.text(48, 24, 'Cost: ' + buttonData.cost, {font: '16px "Roboto Mono"'}));
+			button.costText = button.addChild(state.game.add.text(48, 24, 'Cost: ' + buttonData.cost, {font: '14px "Roboto Mono"'}));
 			button.desc = button.addChild(state.game.add.text(6, 42, buttonData.desc, {font: '13px "Roboto Mono"'}).addColor( '#000', 0 ));
 			button.events.onInputDown.add(state.onUpgradeButtonClick, state);
 
