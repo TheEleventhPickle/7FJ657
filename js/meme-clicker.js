@@ -175,7 +175,7 @@ game.state.add('play', {
 
 		// display the monster front and center
 		this.currentMonster = this.monsters.getRandom();
-		this.currentMonster.position.set(this.game.world.centerX + 150, this.game.world.centerY + 300);
+		this.currentMonster.position.set(this.game.world.centerX, this.game.world.centerY + 300);
 
 		this.monsterInfoUI = this.game.add.group();
 		this.monsterInfoUI.position.setTo(this.currentMonster.x - 220, 30);
@@ -316,7 +316,7 @@ game.state.add('play', {
 	},
 
 	onRevivedMonster: function (monster) {
-		monster.position.set(this.game.world.centerX + 150, this.game.world.centerY + 300);
+		monster.position.set(this.game.world.centerX, this.game.world.centerY + 300);
 		// update the text display
 		this.monsterHealthText.addColor( '#1dbf1d', 0 );
 		this.monsterNameText.text = monster.details.name;
