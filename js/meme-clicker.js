@@ -20,7 +20,7 @@ game.state.add('play', {
 		 * These need to match the monster names
 		 * in var monsterData inside create().
 		 */
-		this.game.load.image('lucky-luciano',   enemiesDir + 'lucky-luciano.png');
+		this.game.load.image('lucky-luciano',   enemiesDir + 'lucky-luciano.afphoto');
 		this.game.load.image('sonic',   enemiesDir + 'sonic.png');
 
 		/**
