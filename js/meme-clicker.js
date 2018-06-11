@@ -118,7 +118,7 @@ game.state.add('play', {
 				name: 'wizard', 
 				level: 0, 
 				cost: 300, 
-				desc: '   MEGA UPGRADE YOUR YPS', 
+				desc: '     MEGA UPGRADE YOUR YPS', 
 				purchaseHandler: function (button, player) {
 					player.dps += 20;
 				}
