@@ -25,7 +25,7 @@ game.state.add('play', {
 		/**
 		 * Coin.
 		 */
-		this.game.load.image('bee', coinsDir + 'bee.png');
+		this.game.load.image('bee', coinsDir + 'bee.afphoto');
 
 		/**
 		 * Upgrades.
