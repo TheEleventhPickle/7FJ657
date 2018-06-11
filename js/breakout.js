@@ -129,7 +129,7 @@ function ballHitBrick(ball, brick) {
     score += 10;
     scoreText.setText(textSpacing( 'Points: ' + score ));
     if(score === brickInfo.count.row*brickInfo.count.col*10) {
-        alert('You won the game, congratulations!');
+        alert('You SUCK!');
         location.reload();
     }
 }
@@ -146,7 +146,7 @@ function ballLeaveScreen() {
         }, this);
     }
     else {
-        alert('You lost, game over!');
+        alert('You SUCK!');
         location.reload();
     }
 }
