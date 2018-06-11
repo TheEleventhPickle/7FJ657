@@ -251,7 +251,6 @@ game.state.add('play', {
 				this.currentMonster.damage(dmg);
 
 				this.colorHealthText();
-				currentMonster.animations.play('wobble');
 
 				// update the health text
 				this.monsterHealthText.text = this.currentMonster.alive ? Math.round(this.currentMonster.health) + ' HP' : 'DEAD';
