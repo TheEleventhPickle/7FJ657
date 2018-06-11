@@ -20,7 +20,7 @@ game.state.add('play', {
 		 * These need to match the monster names
 		 * in var monsterData inside create().
 		 */
-		this.game.load.image('john-cena',   enemiesDir + 'john-cena.png');
+		this.game.load.image('lucky-luciano',   enemiesDir + 'lucky-luciano.png');
 
 		/**
 		 * Coin.
@@ -150,7 +150,7 @@ game.state.add('play', {
 		 * Monsters.
 		 */
 		var monsterData = [
-			{name: 'John Cena',      image: 'john-cena',      maxHealth: 5}
+			{name: 'lucky luciano',      image: 'lucky-luciano',      maxHealth: 10}
 		];
 		this.monsters = this.game.add.group();
 
