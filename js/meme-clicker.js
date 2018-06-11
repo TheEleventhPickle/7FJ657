@@ -96,7 +96,7 @@ game.state.add('play', {
 				name: 'gaurdian angel', 
 				level: 0, 
 				cost: 5, 
-				desc: '+1 damage per click', 
+				desc: '+1 yeet per click', 
 				purchaseHandler: function (button, player) {
 					player.clickDmg += 1;
 				}
@@ -106,7 +106,7 @@ game.state.add('play', {
 				name: 'fbi', 
 				level: 0, 
 				cost: 15, 
-				desc: '+1 damage per second', 
+				desc: '+1 yeet per second', 
 				purchaseHandler: function (button, player) {
 					player.dps += 1;
 				}
