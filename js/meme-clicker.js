@@ -178,7 +178,7 @@ game.state.add('play', {
 		this.currentMonster.position.set(this.game.world.centerX - 50, this.game.world.centerY + 300);
 
 		this.monsterInfoUI = this.game.add.group();
-		this.monsterInfoUI.position.setTo(this.currentMonster.x - 220, 30);
+		this.monsterInfoUI.position.setTo(this.currentMonster.x, 30);
 		this.monsterNameText = this.monsterInfoUI.addChild(this.game.add.text(0, 0, this.currentMonster.details.name, {
 			font: '64px Bangers',
 			fill: '#fff',
