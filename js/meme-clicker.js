@@ -355,7 +355,7 @@ game.state.add('play', {
 		// grab a damage text from the pool to display what happened
 		var dmgText = this.dmgTextPool.getFirstExists(false);
 		if (dmgText) {
-			dmgText.text = this.player.clickDmg;
+			dmgText.text = 'YEET';
 			dmgText.reset(pointer.positionDown.x, pointer.positionDown.y);
 			dmgText.alpha = 1;
 			dmgText.tween.start();
