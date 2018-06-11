@@ -34,7 +34,7 @@ game.state.add('play', {
 		 */ 
 		this.game.load.image('guardian-angel',   buttonsDir + 'guardian-angel.png');
 		this.game.load.image('fbi', buttonsDir + 'fbi.png');
-		this.game.load.image('doge-wizard',  buttonsDir + 'doge-wizard.png');
+		this.game.load.image('wizard',  buttonsDir + 'wizard.png');
 		this.game.load.image('doge-archer',  buttonsDir + 'doge-archer.png');
 		
 		// build panel for upgrades
@@ -114,11 +114,11 @@ game.state.add('play', {
 				}
 			},
 		    {
-				icon: 'doge-wizard', 
-				name: 'Doggo Wizard', 
+				icon: 'wizard', 
+				name: 'wizard', 
 				level: 0, 
 				cost: 300, 
-				desc: 'Supercharge your DPS', 
+				desc: 'MEGA UPGRADE YOUR YPS', 
 				purchaseHandler: function (button, player) {
 					player.dps += 20;
 				}
