@@ -21,6 +21,7 @@ game.state.add('play', {
 		 * in var monsterData inside create().
 		 */
 		this.game.load.image('sonic',   enemiesDir + 'sonic.png');
+		this.game.load.image('sans',   enemiesDir + 'sans.png');
 		this.game.load.image('gru',   enemiesDir + 'gru.png');
 		this.game.load.image('stalin',   enemiesDir + 'stalin.png');
 		this.game.load.image('peter',   enemiesDir + 'peter.png');
@@ -163,6 +164,7 @@ game.state.add('play', {
 		var monsterData = [
 			{name: 'sonnnic',      image: 'sonic',      maxHealth: 5},
 			{name: 'gru',      image: 'gru',      maxHealth: 5},
+			{name: 'sans',      image: 'sans',      maxHealth: 5},
 			{name: 'little pump',      image: 'lilpump',      maxHealth: 1},
 		    {name: 'peter',      image: 'peter',      maxHealth: 3},
 		    {name: 'mike',      image: 'mike',      maxHealth: 2},
