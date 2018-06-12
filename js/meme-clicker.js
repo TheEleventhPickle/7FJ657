@@ -35,7 +35,7 @@ game.state.add('play', {
 		this.game.load.image('guardian-angel',   buttonsDir + 'guardian-angel.png');
 		this.game.load.image('fbi', buttonsDir + 'fbi.png');
 		this.game.load.image('wizard',  buttonsDir + 'wizard.png');
-		this.game.load.image('doge-archer',  buttonsDir + 'doge-archer.png');
+		this.game.load.image('B',  buttonsDir + 'b-emoji.png');
 		
 		// build panel for upgrades
 		var bmd = this.game.add.bitmapData(245, 500);
@@ -124,11 +124,11 @@ game.state.add('play', {
 				}
 			},
             {
-				icon: 'doge-archer', 
-				name: 'Doggo Archer', 
+				icon: 'B', 
+				name: 'B', 
 				level: 0, 
 				cost: 400, 
-				desc: 'Supercharge your DPC', 
+				desc: 'SUPERCHARGE YOUR YEETS', 
 				purchaseHandler: function (button, player) {
 					player.clickDmg += 20;
 				}
