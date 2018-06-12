@@ -184,7 +184,7 @@ game.state.add('play', {
 		this.monsterInfoUI = this.game.add.group();
 		this.monsterInfoUI.position.setTo(this.currentMonster.x - 120, 30);
 		this.monsterNameText = this.monsterInfoUI.addChild(this.game.add.text(0, 0, this.currentMonster.details.name, {
-			font: '64px "Roboto Mono"',
+			font: '45px "Roboto Mono"',
 			fill: '#fff',
 			strokeThickness: 4
 		}));
