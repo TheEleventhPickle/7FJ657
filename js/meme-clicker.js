@@ -24,6 +24,7 @@ game.state.add('play', {
 		this.game.load.image('stalin',   enemiesDir + 'stalin.png');
 		this.game.load.image('peter',   enemiesDir + 'peter.png');
 		this.game.load.image('kermit',   enemiesDir + 'kermit.png');
+		this.game.load.image('fish',   enemiesDir + 'fish.png');
 		this.game.load.image('squidward',   enemiesDir + 'squidward.png');
 		this.game.load.image('shrek',   enemiesDir + 'shrek.png');
 		this.game.load.image('lilpump',   enemiesDir + 'lilpump.png');
@@ -160,6 +161,7 @@ game.state.add('play', {
 			{name: 'sonnnic',      image: 'sonic',      maxHealth: 5},
 			{name: 'little pump',      image: 'lilpump',      maxHealth: 1},
 		    {name: 'peter',      image: 'peter',      maxHealth: 3},
+		    {name: 'FISH',      image: 'fish',      maxHealth: 10},
 		    {name: 'shrek',      image: 'shrek',      maxHealth: 5},
 		    {name: 'squiddy',      image: 'squidward',      maxHealth: 2},
 		    {name: 'kermit',      image: 'kermit',      maxHealth: 2},
