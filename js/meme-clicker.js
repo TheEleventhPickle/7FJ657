@@ -22,6 +22,7 @@ game.state.add('play', {
 		 */
 		this.game.load.image('sonic',   enemiesDir + 'sonic.png');
 		this.game.load.image('peter',   enemiesDir + 'peter.png');
+		this.game.load.image('shrek',   enemiesDir + 'shrek.png');
 		this.game.load.image('lilpump',   enemiesDir + 'lilpump.png');
 		this.game.load.image('luckyluciano',   enemiesDir + 'luckyluciano.png');
 
@@ -156,6 +157,7 @@ game.state.add('play', {
 			{name: 'sonnnic',      image: 'sonic',      maxHealth: 5},
 			{name: 'little pump',      image: 'lilpump',      maxHealth: 1},
 		    {name: 'peter',      image: 'peter',      maxHealth: 3},
+		    {name: 'shrek',      image: 'shrek',      maxHealth: 5},
 			{name: 'lucky luciano',      image: 'luckyluciano',      maxHealth: 8}
 		];
 		this.monsters = this.game.add.group();
@@ -181,7 +183,7 @@ game.state.add('play', {
 
 		// display the monster front and center
 		this.currentMonster = this.monsters.getRandom();
-		this.currentMonster.position.set(this.game.world.centerX - 50, this.game.world.centerY + 300);
+		this.currentMonster.position.set(this.game.world.centerX - 100, this.game.world.centerY + 300);
 
 		this.monsterInfoUI = this.game.add.group();
 		this.monsterInfoUI.position.setTo(this.currentMonster.x - 120, 30);
@@ -322,7 +324,7 @@ game.state.add('play', {
 	},
 
 	onRevivedMonster: function (monster) {
-		monster.position.set(this.game.world.centerX - 50, this.game.world.centerY + 300);
+		monster.position.set(this.game.world.centerX - 100, this.game.world.centerY + 300);
 		// update the text display
 		this.monsterHealthText.addColor( '#1dbf1d', 0 );
 		this.monsterNameText.text = monster.details.name;
