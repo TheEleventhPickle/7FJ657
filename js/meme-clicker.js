@@ -23,6 +23,7 @@ game.state.add('play', {
 		this.game.load.image('sonic',   enemiesDir + 'sonic.png');
 		this.game.load.image('stalin',   enemiesDir + 'stalin.png');
 		this.game.load.image('peter',   enemiesDir + 'peter.png');
+		this.game.load.image('mike',   enemiesDir + 'mike.png');
 		this.game.load.image('fieri',   enemiesDir + 'fieri.png');
 		this.game.load.image('kermit',   enemiesDir + 'kermit.png');
 		this.game.load.image('fish',   enemiesDir + 'fish.png');
@@ -162,6 +163,7 @@ game.state.add('play', {
 			{name: 'sonnnic',      image: 'sonic',      maxHealth: 5},
 			{name: 'little pump',      image: 'lilpump',      maxHealth: 1},
 		    {name: 'peter',      image: 'peter',      maxHealth: 3},
+		    {name: 'mike',      image: 'mike',      maxHealth: 2},
 		    {name: 'FISH',      image: 'fish',      maxHealth: 10},
 		    {name: 'shrek',      image: 'shrek',      maxHealth: 5},
 		    {name: 'guy fieri',      image: 'fieri',      maxHealth: 4},
