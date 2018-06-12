@@ -23,6 +23,7 @@ game.state.add('play', {
 		this.game.load.image('sonic',   enemiesDir + 'sonic.png');
 		this.game.load.image('stalin',   enemiesDir + 'stalin.png');
 		this.game.load.image('peter',   enemiesDir + 'peter.png');
+		this.game.load.image('kermit',   enemiesDir + 'kermit.png');
 		this.game.load.image('shrek',   enemiesDir + 'shrek.png');
 		this.game.load.image('lilpump',   enemiesDir + 'lilpump.png');
 		this.game.load.image('luckyluciano',   enemiesDir + 'luckyluciano.png');
@@ -159,6 +160,7 @@ game.state.add('play', {
 			{name: 'little pump',      image: 'lilpump',      maxHealth: 1},
 		    {name: 'peter',      image: 'peter',      maxHealth: 3},
 		    {name: 'shrek',      image: 'shrek',      maxHealth: 5},
+		    {name: 'kermit',      image: 'kermit',      maxHealth: 2},
 		    {name: 'joseph stalin',      image: 'stalin',      maxHealth: 8},
 			{name: 'lucky luciano',      image: 'luckyluciano',      maxHealth: 8}
 		];
