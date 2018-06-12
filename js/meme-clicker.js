@@ -21,6 +21,7 @@ game.state.add('play', {
 		 * in var monsterData inside create().
 		 */
 		this.game.load.image('sonic',   enemiesDir + 'sonic.png');
+		this.game.load.image('stalin',   enemiesDir + 'stalin.png');
 		this.game.load.image('peter',   enemiesDir + 'peter.png');
 		this.game.load.image('shrek',   enemiesDir + 'shrek.png');
 		this.game.load.image('lilpump',   enemiesDir + 'lilpump.png');
@@ -158,6 +159,7 @@ game.state.add('play', {
 			{name: 'little pump',      image: 'lilpump',      maxHealth: 1},
 		    {name: 'peter',      image: 'peter',      maxHealth: 3},
 		    {name: 'shrek',      image: 'shrek',      maxHealth: 5},
+		    {name: 'joseph stalin',      image: 'stalin',      maxHealth: 8},
 			{name: 'lucky luciano',      image: 'luckyluciano',      maxHealth: 8}
 		];
 		this.monsters = this.game.add.group();
